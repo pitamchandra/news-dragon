@@ -18,26 +18,6 @@ const Header = () => {
                     I can be a React component, multiple React components, or just some text.
                 </Marquee>
             </div>
-            <Navbar collapseOnSelect expand="lg" className='mt-4' bg="light" variant="light">
-                <Container>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mx-auto">
-                        <Nav.Link href="#features" className='fs-4'>Home</Nav.Link>
-                        <Nav.Link href="#pricing" className='fs-4'>About</Nav.Link>
-                        <Nav.Link href="#pricing" className='fs-4'>Career</Nav.Link>
-                        
-                    </Nav>
-                    <Nav>
-                        <Nav.Link href="#deets">profile</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                        <Button variant="secondary">Login</Button>
-                        </Nav.Link>
-                    </Nav>
-                    </Navbar.Collapse>
-                </Container>
-                </Navbar>
-            
         </Container>
     );
 };

@@ -1,9 +1,11 @@
 import React from 'react';
 
 const Home = () => {
+    
     return (
         <div>
-            home page
+            <h3>All News {newsData.length}</h3>
+            
         </div>
     );
 };

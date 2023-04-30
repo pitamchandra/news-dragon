@@ -6,7 +6,7 @@ import Insights from '../../News/Insights/Insights';
 const LeftNav = () => {
     const [categories, setCategory] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/category')
+        fetch('https://news-dragon-server-ic0cjbpwf-pitamchandra.vercel.app/category')
         .then(res => res.json())
         .then(data => setCategory(data))
         .catch(error =>{
